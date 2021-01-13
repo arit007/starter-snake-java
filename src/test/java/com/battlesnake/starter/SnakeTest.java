@@ -33,9 +33,9 @@ public class SnakeTest {
         
         
         Map<String, String> response = handler.index();
-        assertEquals("#888888", response.get("color"));
-        assertEquals("default", response.get("headType"));
-        assertEquals("default", response.get("tailType"));
+        assertEquals("#85edc9", response.get("color"));
+        assertEquals("tongue", response.get("headType"));
+        assertEquals("round-bum", response.get("tailType"));
     }
 
     @Test
